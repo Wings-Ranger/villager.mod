@@ -1,11 +1,11 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "breedingvillager",
 	"version": "${version}",
-	"name": "Example Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Villager Breeding",
+	"description": "This is a mod that helps with villager breeding in the 26.1 update!",
 	"authors": [
-		"Me!"
+		"Wings_Ranger"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -16,7 +16,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"com.example.BreedingVillager"
 		],
 		"client": [
 			"com.example.client.ExampleModClient"
