@@ -1,5 +1,6 @@
 package com.example;
 
+import com.example.block.ModBlocks;
 import com.example.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -20,5 +21,6 @@ public class BreedingVillager implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
